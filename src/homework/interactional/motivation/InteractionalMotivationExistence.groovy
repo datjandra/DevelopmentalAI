@@ -84,26 +84,26 @@ class InteractionalMotivationExistence extends Existence010 {
 	private void initExistence(int numberExperiments, int numberResults) {
 		createExperiments(numberExperiments)
 		createResults(numberResults)
-		Stack<Integer> valencies = createValencies(numberExperiments * numberResults)
-		addInteractions(valencies)
+		addInteractions(createValencies(numberExperiments * numberResults))
 		previousExperience = (EXPERIENCES.values() as List).first()
 	}
 	
 	private void createExperiments(int numberExperiments) {		
 		(1..numberExperiments).each {
-			Experiment experiment = addOrGetExperience("e${it}")
+			addOrGetExperience("e${it}")
 		}
 	}	
 	
 	private void createResults(numberResults) {
 		(1..numberResults).each {
-			Result result = createOrGetResult("r${it}")
+			createOrGetResult("r${it}")
 		}
 	}	
 	
 	private Stack<Integer> createValencies(int numberValencies) {
 		Stack<Integer> valencies = new Stack<Integer>()
 		(1..numberValencies).each {
+			// assign positive valency to even numbers and negative valency to odd numbers
 			valencies.push((it % 2 ? 1 : -1 ))					
 		}
 		return valencies
@@ -115,8 +115,7 @@ class InteractionalMotivationExistence extends Existence010 {
 		for (Experiment experience : experiences) {
 			for (Result result : results) {
 				if (!valencies.isEmpty()) {
-					Integer valency = valencies.pop()
-					addOrGetPrimitiveInteraction(experience, result, valency)					
+					addOrGetPrimitiveInteraction(experience, result, valencies.pop())					
 				}
 			}
 		}
