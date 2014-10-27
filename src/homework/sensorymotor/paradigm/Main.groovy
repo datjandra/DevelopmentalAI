@@ -1,4 +1,4 @@
-package homework.interactional.motivation
+package homework.sensorymotor.paradigm
 
 import existence.Existence
 
