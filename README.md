@@ -92,7 +92,7 @@ Existence existence = new Existence040()
    groovy -cp bin src/homework/sensorymotor/paradigm/Main.groovy
    ```
 
-## 📋 Environment Variables & Configuration
+## 📋 Configuration
 
 Currently, the projects use hardcoded configurations. Common configurable parameters:
 
@@ -169,7 +169,3 @@ def agent = new Main.Existence040WithResult030()
 ## 📄 License
 
 Homework projects created for the IDEAL MOOC course.
-
-## ✍️ Author
-
-Created by **datjandra** for IDEAL MOOC assignments.
