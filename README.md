@@ -160,6 +160,101 @@ def agent = new Main.Existence040WithResult030()
 - **Mood**: Agent emotional state affecting decision-making (PLEASED, PAINED, BORED)
 - **Anticipation**: Agent prediction of outcomes based on learned interactions
 
+## 🚀 Potential Applications
+
+Although these projects are educational implementations, the underlying developmental AI concepts have practical relevance across several domains of adaptive and autonomous systems.
+
+### 1. Reinforcement Learning Research
+
+The agents demonstrate foundational ideas related to reinforcement learning and intrinsic motivation systems:
+
+- Action selection based on positive or negative outcomes
+- Exploration vs exploitation behavior
+- Reward-driven adaptation
+- Experience-based policy learning
+
+These examples can serve as lightweight prototypes for studying adaptive learning dynamics.
+
+---
+
+### 2. Adaptive Game AI
+
+The interaction and mood-based systems can inspire adaptive non-player characters (NPCs) in games:
+
+- NPCs that change strategies based on player behavior
+- Agents that avoid repetitive or ineffective actions
+- Dynamic exploration when agents become "stuck" or ineffective
+- Emergent behavior from simple interaction rules
+
+The maze environment module provides a basic example of environmental adaptation.
+
+---
+
+### 3. Autonomous Robotics Concepts
+
+The sensorimotor learning architecture mirrors simplified robotic learning loops:
+
+- Sensor → action → environmental feedback
+- Adaptive navigation strategies
+- Experience-driven behavioral adjustment
+- Basic anticipation and prediction mechanisms
+
+While these implementations are simulations, the concepts align with developmental robotics research.
+
+---
+
+### 4. Cognitive Architecture Prototyping
+
+The repository explores ideas from developmental psychology and enactive cognition:
+
+- Constructivist learning
+- Anticipation-based behavior
+- Interaction-centered cognition
+- Internal motivational systems
+
+These projects can be used to experiment with simplified cognitive architectures and embodied AI concepts.
+
+---
+
+### 5. Educational AI Demonstrations
+
+The codebase provides approachable examples for teaching:
+
+- Developmental AI principles
+- Agent-environment interaction
+- Emergent adaptive behavior
+- Meta-learning concepts
+- Basic self-programming paradigms
+
+The relatively small Groovy implementations make the learning mechanisms easier to inspect and modify compared to large-scale AI frameworks.
+
+---
+
+### 6. Self-Programming and Meta-Learning Research
+
+The "self-programming" modules demonstrate systems that adapt their internal behavior-selection policies over time:
+
+- Learning preferred interaction patterns
+- Modifying action priorities from experience
+- Anticipating future outcomes
+- Dynamically adjusting strategies
+
+Rather than generating source code, these agents evolve their decision-making behavior through continuous interaction with the environment.
+
+---
+
+### 7. Artificial Life and Emergent Systems
+
+The interaction-based architecture can also support experiments in:
+
+- Emergent behavior
+- Artificial life simulations
+- Multi-agent systems
+- Novelty-seeking and boredom-driven exploration
+- Adaptive autonomous agents
+
+These systems demonstrate how complex behavior can emerge from relatively simple local interaction rules.
+
 ## 📖 References
 
 - [IDEAL MOOC Course](http://liris.cnrs.fr/ideal/mooc/)
